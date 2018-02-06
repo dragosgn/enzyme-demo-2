@@ -3,12 +3,14 @@
   "description": null,
   "version": "0.0.0",
   "dependencies": {
-    "react-dom": "16.0.0",
-    "react": "16.0.0",
-    "jest-cli": "22.1.4",
-    "jest": "22.1.4",
+    "babel-jest": "22.1.0",
     "enzyme": "3.3.0",
-    "babel-jest": "22.1.0"
+    "enzyme-adapter-react-15": "^1.0.5",
+    "jest": "22.1.4",
+    "jest-cli": "22.1.4",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-test-renderer": "^16.2.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
