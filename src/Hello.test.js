@@ -2,7 +2,7 @@
 import React from 'react';
 import { mount, shallow, configure } from 'enzyme';
 import {expect} from 'chai';
-import Adapter from 'enzyme-adapter-react-15';
+import Adapter from 'enzyme-adapter-react-16';
 import Hello from './Hello';
 
 configure({ adapter: new Adapter() });
