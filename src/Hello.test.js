@@ -10,5 +10,5 @@ configure({ adapter: new Adapter() });
 describe("Hello", () => {
   it("should render hello", () => {
     const wrapper = shallow(<Hello />);
-  });
-});
+  })
+})

@@ -1,3 +1,6 @@
 import React from 'react';
 
-export default ({ name }) => <h1>Hello {name}!</h1>;
+
+const Title = ({disabled, name}) => (<h1>Hello {name}</h1>)
+
+export default ({ name }) => <Title disabled={true} name={name}></Title>;
