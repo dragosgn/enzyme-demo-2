@@ -11,4 +11,9 @@ describe("Hello", () => {
   it("should render hello", () => {
     const wrapper = shallow(<Hello />);
   })
+
+  it("should have prop disabled", () => {
+    const wrapper = shallow(<Hello disabled={true} />);
+    expect(<Hello />).to.have.property('disabled', true);
+  })
 })
